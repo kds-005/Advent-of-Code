@@ -15,9 +15,7 @@ public class Day1 {
         ArrayList<Integer> LeftRightDiff = new ArrayList<>();
         IntStream.range(0,LeftInput.size())
                 .forEach(
-                        i->{
-                            LeftRightDiff.add(Math.abs(LeftInput.get(i) - RightInput.get(i)));
-                        }
+                        i-> LeftRightDiff.add(Math.abs(LeftInput.get(i) - RightInput.get(i)))
                 );
         return (LeftRightDiff.stream().flatMapToInt(IntStream::of).sum());
     }
@@ -48,10 +46,10 @@ public class Day1 {
         ArrayList<Integer> LeftInput = new ArrayList<>();
         ArrayList<Integer> RightInput = new ArrayList<>();
 
-        String line = null;
+        String line;
         while((line = reader.readLine()) != null){
-            LeftInput.add(Integer.valueOf(line.split("   ")[0]));
-            RightInput.add(Integer.valueOf(line.split("   ")[1]));
+            LeftInput.add(Integer.valueOf(line.split(" {3}")[0]));
+            RightInput.add(Integer.valueOf(line.split(" {3}")[1]));
         }
 
         // Part 1
