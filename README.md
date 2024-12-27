@@ -5,5 +5,6 @@ You can checkout the branches for each language
 
 
 Current Progress for the 2024: 
-![image](https://github.com/user-attachments/assets/2005c5ee-565c-461c-8e6e-73d77f50bd60)
+![image](https://github.com/user-attachments/assets/ff33114e-97e3-4044-a443-4ca98e8e2e7d)
+
 
