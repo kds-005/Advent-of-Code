@@ -5,7 +5,4 @@ You can checkout the branches for each language
 
 
 Current Progress for the 2024: 
-![image](https://github.com/user-attachments/assets/6e3c3c3e-8bf1-4b71-83fb-9ca12d4c355b)
-
-
-
+![image](https://github.com/user-attachments/assets/506b5ec4-5585-4a61-a3f3-8855373d15cb)
